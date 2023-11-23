@@ -4,3 +4,4 @@ echo 'deb http://deb.debian.org/debian bookworm main contrib non-free' >> /etc/a
 dpkg --add-architecture i386
 apt update
 systemctl enable lightdm
+apt autoremove gnome-session gnome gnome-shell
